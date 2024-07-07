@@ -9,13 +9,13 @@ import Collection from "@/components/Collection";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ featuredProduct, newProducts, collectionProduct }) {
-  return <>
+  return <div className="w-full px-2 md:px-4">
     <Hero product={featuredProduct} />
     <hr class="my-4 h-px border-0 bg-gray-300" />
     <Products products={newProducts} />
     <hr class="my-4 h-px border-0 bg-gray-300" />
     <Collection product={collectionProduct} />
-  </>
+  </div>
 }
 
 

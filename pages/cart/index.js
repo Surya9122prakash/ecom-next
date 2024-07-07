@@ -274,7 +274,7 @@ export default function Cart() {
     }
 
     return <>
-        <div className="grid h-screen px-4 bg-white place-content-center">
+        <div className="grid h-fit md:py-60 py-72 px-4 bg-white place-content-center">
             <div className="text-center">
                 <p className="mt-4 text-text text-2xl">
                     You should signup to view cart items
