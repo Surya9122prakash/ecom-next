@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { Poppins } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Poppins({
   subsets: ['latin'],
@@ -22,6 +23,7 @@ export default function App({
           <Toaster position='top-center'  />
         </div>
         <Footer />
+        <Analytics />
       </main>
     </SessionProvider>
   )
