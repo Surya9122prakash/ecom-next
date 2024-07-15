@@ -13,7 +13,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
   return <>
     <SessionProvider session={session}>
       <CartContextProvider>
-        <main className={`${inter.className} min-h-screen max-w-screen-xl mx-auto px-4 bg-background text-accent`}>
+        <main className={`${inter.className} min-h-screen max-w-screen-2xl mx-auto px-10 bg-background text-accent`}>
           <Header />
           <Component {...pageProps} />
           <Toaster
