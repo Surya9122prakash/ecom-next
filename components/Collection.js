@@ -75,7 +75,7 @@ export default function Collection({ product }) {
                   <header>
                     <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">{product.title}</h2>
 
-                    <p className="mt-4 text-gray-500 break-words w-80">
+                    <p className="mt-4 text-gray-500 break-words w-64">
                       {product.description}
                     </p>
                     <p className="mt-1 text-lg text-primary">&#8377;. {formatPrice(product.price)}</p>
