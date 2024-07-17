@@ -12,7 +12,7 @@ export default function Hero({ product }) {
     if (product) {
         return <>
             <div className="relative mt-10 md:my-10 overflow-hidden">
-                <div className="md:py-40 pb-5 md:min-h-[650px]">
+                <div className="md:py-40 pb-5 lg:min-h-[650px]">
                     <div className="relative mx-auto sm:static px-6 lg:px-8">
                         <div className="max-w-xl text-start">
                             <h1 className="text-4xl md:text-5xl max-md:mb-6 font-bold tracking-tight text-primary">
@@ -31,7 +31,7 @@ export default function Hero({ product }) {
                             </div>
 
                             <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                                <div className="hidden md:block">
+                                <div className="hidden lg:block">
                                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-12">
                                         <div className="flex items-center space-x-6 md:space-x-8">
                                             <div className="w-72 h-80 overflow-hidden rounded-lg border border-secondary transform rotate-3 translate-x-4 hover:-rotate-6 hover:translate-x-8 transition-transform duration-3000 ease-in-out">
