@@ -18,10 +18,10 @@ export default function Hero({ product }) {
                             <h1 className="text-4xl md:text-5xl max-md:mb-6 font-bold tracking-tight text-primary">
                                 At <span className="text-accent"> 50%</span> Off
                             </h1>
-                            <h1 className="text-4xl md:text-5xl max-md:mb-6 font-bold tracking-tight text-text">
+                            <h1 className="text-4xl md:text-5xl max-md:mb-6 font-bold tracking-tight text-text pt-2">
                                 {product.title}
                             </h1>
-                            <p className="line-clamp-3 text-lg text-gray-500">
+                            <p className="line-clamp-3 text-lg text-gray-500 pt-2">
                                 {product.description}
                             </p>
 

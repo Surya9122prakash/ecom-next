@@ -45,7 +45,7 @@ const Orders = () => {
                       <tr key={product.id}>
                         <td className="py-2 px-4">{product.price_data?.product_data?.name}</td>
                         <td className="py-2 px-4">{product.quantity}</td>
-                        <td className="py-2 px-4">${(product.price_data?.unit_amount / 100).toFixed(2)}</td>
+                        <td className="py-2 px-4">&#8377;{(product.price_data?.unit_amount / 100).toFixed(2)}</td>
                       </tr>
                     ))}
                 </tbody>
